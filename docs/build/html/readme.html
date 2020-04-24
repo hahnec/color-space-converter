@@ -1,0 +1,189 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>color-space-converter &#8212; color-space-converter 0.1.3 documentation</title>
+    <link rel="stylesheet" href="_static/sphinxdoc.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="API documentation" href="apidoc.html" />
+    <link rel="prev" title="Welcome to color-space-converter’s documentation!" href="index.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="apidoc.html" title="API documentation"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Welcome to color-space-converter’s documentation!"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">color-space-converter 0.1.3 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">color-space-converter</a><ul>
+<li><a class="reference internal" href="#description">Description</a></li>
+<li><a class="reference internal" href="#installation">Installation</a></li>
+<li><a class="reference internal" href="#quick-api-guide">Quick API Guide</a></li>
+<li><a class="reference internal" href="#command-line-usage">Command Line Usage</a></li>
+<li><a class="reference internal" href="#author">Author</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="index.html"
+                        title="previous chapter">Welcome to color-space-converter’s documentation!</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="apidoc.html"
+                        title="next chapter">API documentation</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/readme.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="color-space-converter">
+<h1>color-space-converter<a class="headerlink" href="#color-space-converter" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="description">
+<h2>Description<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h2>
+<p><em>color-space-converter</em> enables fast image color space conversion via vectorization from numpy arrays.</p>
+<p><a class="reference external" href="https://github.com/hahnec/color-space-converter/releases/"><img alt="release" src="https://img.shields.io/github/v/release/hahnec/color-space-converter?style=flat-square" /></a> <a class="reference external" href="https://travis-ci.com/github/hahnec/color-space-converter"><img alt="build" src="https://img.shields.io/travis/com/hahnec/color-space-converter?style=flat-square" /></a> <a class="reference external" href="https://pypi.org/project/color-space-converter/"><img alt="PyPI Downloads" src="https://img.shields.io/pypi/dm/color-space-converter?label=PyPI%20downloads&amp;style=flat-square" /></a></p>
+</div>
+<div class="section" id="installation">
+<h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><dl class="simple">
+<dt>via pip:</dt><dd><ol class="arabic simple">
+<li><p>install with <code class="docutils literal notranslate"><span class="pre">pip3</span> <span class="pre">install</span> <span class="pre">color-space-converter</span></code></p></li>
+<li><p>type <code class="docutils literal notranslate"><span class="pre">color-space-converter</span> <span class="pre">-h</span></code> to the command line once installation finished</p></li>
+</ol>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>from source:</dt><dd><ol class="arabic simple">
+<li><p>install Python from <a class="reference external" href="https://www.python.org/">https://www.python.org/</a></p></li>
+<li><p>download the <a class="reference external" href="https://github.com/hahnec/color-space-converter/archive/master.zip">source</a> using <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">clone</span> <span class="pre">https://github.com/hahnec/color-space-converter.git</span></code></p></li>
+<li><p>go to the root directory <code class="docutils literal notranslate"><span class="pre">cd</span> <span class="pre">color_space_converter</span></code></p></li>
+<li><p>load dependencies <code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">pip3</span> <span class="pre">install</span> <span class="pre">-r</span> <span class="pre">requirements.txt</span></code></p></li>
+<li><p>install with <code class="docutils literal notranslate"><span class="pre">python3</span> <span class="pre">setup.py</span> <span class="pre">install</span></code></p></li>
+<li><p>if installation ran smoothly, enter <code class="docutils literal notranslate"><span class="pre">color-space-converter</span> <span class="pre">-h</span></code> to the command line</p></li>
+</ol>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class="section" id="quick-api-guide">
+<h2>Quick API Guide<a class="headerlink" href="#quick-api-guide" title="Permalink to this headline">¶</a></h2>
+<p>Procedural usage:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">color_space_converter</span> <span class="kn">import</span> <span class="n">rgb2yuv</span><span class="p">,</span> <span class="n">yuv2rgb</span>
+
+<span class="k">def</span> <span class="nf">treat_lum</span><span class="p">(</span><span class="n">img</span><span class="p">):</span>
+
+    <span class="n">yuv</span> <span class="o">=</span> <span class="n">rgb2yuv</span><span class="p">(</span><span class="n">img</span><span class="p">)</span>
+    <span class="n">yuv</span><span class="p">[</span><span class="o">...</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span> <span class="o">/=</span> <span class="mi">2</span>
+    <span class="n">rgb</span> <span class="o">=</span> <span class="n">yuv2rgb</span><span class="p">(</span><span class="n">yuv</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">rgb</span>
+</pre></div>
+</div>
+<p>OOP style:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">color_space_converter</span> <span class="kn">import</span> <span class="n">ColorSpaceConverter</span>
+
+<span class="k">def</span> <span class="nf">treat_sat</span><span class="p">(</span><span class="n">img</span><span class="p">):</span>
+
+    <span class="n">obj</span> <span class="o">=</span> <span class="n">ColorSpaceConverter</span><span class="p">(</span><span class="n">img</span><span class="p">)</span>
+    <span class="n">hsv</span> <span class="o">=</span> <span class="n">obj</span><span class="o">.</span><span class="n">hsv_conv</span><span class="p">()</span>
+    <span class="n">hsv</span><span class="p">[</span><span class="o">...</span><span class="p">,</span> <span class="mi">1</span><span class="p">]</span> <span class="o">*=</span> <span class="o">.</span><span class="mi">5</span>
+    <span class="n">rgb</span> <span class="o">=</span> <span class="n">obj</span><span class="o">.</span><span class="n">hsv_conv</span><span class="p">(</span><span class="n">hsv</span><span class="p">,</span> <span class="n">inverse</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">rgb</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="command-line-usage">
+<h2>Command Line Usage<a class="headerlink" href="#command-line-usage" title="Permalink to this headline">¶</a></h2>
+<p>From the root directory of your downloaded repo, you can run the tool by</p>
+<p><code class="docutils literal notranslate"><span class="pre">color-space-converter</span> <span class="pre">-s</span> <span class="pre">'../your_path/yourimage.png'</span> <span class="pre">-m</span> <span class="pre">'gry'</span></code></p>
+<p>on a UNIX system where the result is found at <code class="docutils literal notranslate"><span class="pre">../your_path/</span></code>. A windows equivalent of the above command is</p>
+<p><code class="docutils literal notranslate"><span class="pre">color-space-converter</span> <span class="pre">--src=&quot;.\\your_path\\your_image.png&quot;</span> <span class="pre">--method=&quot;gry&quot;</span></code></p>
+<p>Alternatively, you can specify the method or select your images manually with</p>
+<p><code class="docutils literal notranslate"><span class="pre">color-space-converter</span> <span class="pre">--win</span> <span class="pre">--method='yuv'</span></code></p>
+<p>More information on optional arguments, can be found using the help parameter</p>
+<p><code class="docutils literal notranslate"><span class="pre">color-space-converter</span> <span class="pre">-h</span></code></p>
+</div>
+<div class="section" id="author">
+<h2>Author<a class="headerlink" href="#author" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="http://www.christopherhahne.de/">Christopher Hahne</a></p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="apidoc.html" title="API documentation"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Welcome to color-space-converter’s documentation!"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">color-space-converter 0.1.3 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020, Christopher Hahne.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 2.4.3.
+    </div>
+  </body>
+</html>
