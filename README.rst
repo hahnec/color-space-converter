@@ -7,7 +7,7 @@ Description
 
 *color-space-converter* enables fast image color space conversion via vectorization from numpy arrays.
 
-|release| |build| |pypi|
+|release| |build| |coverage| |pypi|
 
 Installation
 ------------
@@ -92,6 +92,9 @@ Author
 
 .. |build| image:: https://img.shields.io/travis/com/hahnec/color-space-converter?style=flat-square
     :target: https://travis-ci.com/github/hahnec/color-space-converter
+
+.. |coverage| image:: https://img.shields.io/coveralls/github/hahnec/color-space-converter?style=flat-square
+    :target: https://coveralls.io/github/hahnec/color-space-converter
 
 .. |pypi| image:: https://img.shields.io/pypi/dm/color-space-converter?label=PyPI%20downloads&style=flat-square
     :target: https://pypi.org/project/color-space-converter/
